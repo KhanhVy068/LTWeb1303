@@ -1,6 +1,6 @@
 # Báo cáo lập trình web nhóm 13 
 Các lỗi tìm được:  
-**orders.php**    
+**File: orders.php**    
 - Lỗi 1: Logic  
 Trước khi sửa:
 
@@ -35,7 +35,7 @@ ___
     }
     ```
 ___
-**dashboard.php**
+**File: dashboard.php**
 - Lỗi 3: Logic  
     Trước khi sửa:
     ```
@@ -62,7 +62,7 @@ ___
     ```
 
 ___
-**customer.php**
+**File: customer.php**
 - Lỗi 5: syntax  
     Trước khi sửa:
     ```
@@ -74,7 +74,7 @@ ___
     ```
 
 ___
-**report.php**
+**File: report.php**
 - Lỗi 6: syntax  
     Trước khi sửa:
     ```
@@ -86,7 +86,7 @@ ___
     ```
 
 ___
-**setting.php**
+**File: setting.php**
 - Lỗi 7: syntax  
     Trước khi sửa: 
     ```
