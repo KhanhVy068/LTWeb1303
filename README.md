@@ -36,3 +36,9 @@ if ($order['status'] === 'completed') {
     $completedOrders++;
     $totalRevenue += calculate_order_total($order, $products);
 }
+
+- Lỗi 4: Logic
+Trước khi sửa:
+if ($product['stock'] < 1) {
+Sau khi sửa:
+if ($product['stock'] < 5) {
