@@ -14,7 +14,7 @@ foreach ($cart as $item) {
 $discountPercent = 10;
 $discountValue = $subtotal * ($discountPercent / 100);
 $shippingFee = $subtotal >= 50 ? 5 : 0;
-$vat = $subtotal * 0.1;
+$vat = ($subtotal - $discountValue) * 0.1;
 $grandTotal = $subtotal - $discountValue + $shippingFee + $vat;
 ?>
 
