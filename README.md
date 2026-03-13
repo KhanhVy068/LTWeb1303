@@ -44,19 +44,19 @@ Sau khi sửa:
 if ($product['stock'] < 5) {
 
 **customer.php**
-Lỗi 5: syntax
+- Lỗi 5: syntax
 Trước khi sửa:
 if ($customer['active') { 
 Sau khi sửa: 
 if ($customer['active']) { 
 **report.php**
-Lỗi 6: syntax
+- Lỗi 6: syntax
 Trước khi sửa:
 $reportRows = []
 Sau khi sửa:
 $reportRows = [];
 **setting.php**
-Lỗi 7: syntax
+- Lỗi 7: syntax
 Trước khi sửa: 
 $config = [
     'currency' => 'USD',
