@@ -3,7 +3,6 @@ Các lỗi tìm được:
 **File: orders.php**    
 - Lỗi 1: Logic  
 Trước khi sửa:
-
     ```
     foreach ($orders as $order) {
         if ($order['status'] === 'completed') {
